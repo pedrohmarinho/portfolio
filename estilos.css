@@ -52,15 +52,25 @@ nav a {
 }
 
 
-/* Edição da home */
+/* Edição da header */
 
 
 .home {
-    margin-top: 12rem;
+    margin-top: 7rem;
     margin-left: 3rem;
     display: inline-flex;
     flex-direction: column;
     flex-shrink: 0;
+}
+
+.titulos {
+    color: #457B9D;
+    text-align: center;
+    font-family: Sora;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 
@@ -119,4 +129,31 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Editando a main */
+
+main {
+    color: white;
+}
+
+main .projetos {
+    margin: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main .projeto {
+    border-radius: 10px;
+    background: #151717;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+main img {
+    width: 20vw;
+    height: 30vh;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: 1px solid #151717;
+    background: url(<path-to-image>), lightgray -1.003px -0.153px / 100.276% 110.41% no-repeat;
 }
