@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Open+Sans:wght@400;600;700;800&family=Sora:wght@300&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #151717;
+    font-family: Sora;
+}
+
+
+/* Edição da navbar */
+
+
+nav {
+    overflow: hidden;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 15vh;
+}
+
+
+nav a {
+    padding: 1rem;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.70);
+}
+
+
+.nome {
+    margin-left: 3rem;
+    color: #2BA0DB;
+    font-family: Sora;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.menu {
+    margin-left: 20rem;
+    justify-content: center;
+    align-items: center;
+    font-family: Sora;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* Edição da home */
+
+
+.home {
+    margin-top: 12rem;
+    margin-left: 3rem;
+    display: inline-flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+
+.fotopedro {
+    width: 200px;
+    height: 200px;
+    border-radius: 32px;
+    border: 9px solid #0FE7C0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+
+.home img {
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+
+.txtsobre {
+    padding: 3rem;
+    align-items: right;
+    font-family: Sora;
+}
+
+
+.txtsobre h1 {
+    color: #0FE7C0;
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.txtsobre h2 {
+    color: #2BA0DB;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.txtsobre p {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.sobremim {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
