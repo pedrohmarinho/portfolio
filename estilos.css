@@ -12,15 +12,14 @@
 /* Edição da navbar */
 
 
-nav {
-    overflow: hidden;
+.navbar {
     position: fixed;
     display: flex;
     align-items: center;
     width: 100vw;
-    height: 15vh;
+    height: 12vh;
+    border-bottom: 0.3rem solid #FFF;
 }
-
 
 nav a {
     padding: 1rem;
@@ -28,9 +27,8 @@ nav a {
     color: rgba(255, 255, 255, 0.70);
 }
 
-
-.nome {
-    margin-left: 3rem;
+nav h1 {
+    margin-left: 3%;
     color: #2BA0DB;
     font-family: Sora;
     font-size: 30px;
@@ -39,9 +37,9 @@ nav a {
     line-height: normal;
 }
 
-
 .menu {
-    margin-left: 20rem;
+    margin-right: 3%;
+    margin-left: auto;
     justify-content: center;
     align-items: center;
     font-family: Sora;
@@ -51,6 +49,9 @@ nav a {
     line-height: normal;
 }
 
+a:hover {
+    color: #457B9D;
+}
 
 /* Edição da header */
 
@@ -64,15 +65,15 @@ nav a {
 }
 
 .titulos {
+    padding-top: 4rem;
     color: #457B9D;
     text-align: center;
     font-family: Sora;
-    font-size: 32px;
+    font-size: 250%;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
-
 
 .fotopedro {
     width: 200px;
@@ -82,20 +83,17 @@ nav a {
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
-
 .home img {
     height: 200px;
     width: 200px;
     border-radius: 20px;
 }
 
-
 .txtsobre {
     padding: 3rem;
     align-items: right;
     font-family: Sora;
 }
-
 
 .txtsobre h1 {
     color: #0FE7C0;
@@ -106,7 +104,6 @@ nav a {
     line-height: normal;
 }
 
-
 .txtsobre h2 {
     color: #2BA0DB;
     font-size: 24px;
@@ -115,7 +112,6 @@ nav a {
     line-height: normal;
 }
 
-
 .txtsobre p {
     color: rgba(255, 255, 255, 0.80);
     font-size: 20px;
@@ -123,7 +119,6 @@ nav a {
     font-weight: 400;
     line-height: normal;
 }
-
 
 .sobremim {
     display: flex;
@@ -156,4 +151,53 @@ main img {
     border-radius: 10px 10px 0px 0px;
     border-bottom: 1px solid #151717;
     background: url(<path-to-image>), lightgray -1.003px -0.153px / 100.276% 110.41% no-repeat;
+}
+
+
+/* Editando o footer */
+
+
+.contato {
+    margin: 3rem;
+}
+
+footer {
+    color: #FFF;
+    text-align: justify;
+    font-family: Sora;
+    font-style: normal;
+    line-height: normal;
+}
+
+footer h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+footer p {
+    padding-top: 2rem;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.redes {
+    padding-top: 1rem;
+}
+
+.redes a{
+    text-decoration: none;
+}
+
+.redes img {
+    padding: 0.5rem;
+    width: 5%;
+    height: 40%;
+    flex-shrink: 0;
+}
+
+.copy {
+    padding-top: 4rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
